@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"
+	xmlns:fb="sap.ui.comp.filterbar">
+	<Toolbar class="sapMPageHeader">
+		<Bar  class="sapMPageHeader" visible="true">
+			<contentLeft >
+			
+			</contentLeft>
+			<contentRight>
+				<Button class="sapMBtnIcon" icon="sap-icon://home"/>
+			</contentRight>
+		</Bar>
+	</Toolbar>
+</core:FragmentDefinition>

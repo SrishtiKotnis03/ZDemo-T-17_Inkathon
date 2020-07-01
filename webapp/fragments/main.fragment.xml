@@ -1,0 +1,22 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:tnt="sap.tnt"
+	height="100%" class="side-navigation sapTntSideNavigation">
+	<tnt:SideNavigation id="sideNavigation" height="100%" class="sapTntSideNavigation">
+		<!--	<tnt:NavigationList>
+			<tnt:NavigationListItem text="Item 1" icon="sap-icon://employee">
+			
+			</tnt:NavigationListItem>
+			<tnt:NavigationListItem text="Item 2" icon="sap-icon://building">
+			
+			</tnt:NavigationListItem>
+		</tnt:NavigationList>-->
+		<tnt:NavigationList id="idNavList" selectedKey="key1" class="sapTntSideNavigation">
+			<tnt:NavigationListItem text="Calendar" icon="sap-icon://appointment-2" id="idCalendar" key="key1" class="sapTntSideNavigation"/>
+			<tnt:NavigationListItem text="Map" icon="sap-icon://map" key="key2"/>
+			<tnt:NavigationListItem text="Work Assignment" icon="sap-icon://approvals" key="key3"/>
+			<tnt:NavigationListItem text="Maintenanace Report" icon="sap-icon://business-objects-experience" key="key4" expanded="false">
+				<tnt:NavigationListItem  text="Backlog Report"/>
+				<tnt:NavigationListItem text="Analytics"/>
+			</tnt:NavigationListItem>
+		</tnt:NavigationList>
+	</tnt:SideNavigation>
+</core:FragmentDefinition>

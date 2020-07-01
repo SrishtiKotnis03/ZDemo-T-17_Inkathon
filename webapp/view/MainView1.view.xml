@@ -1,0 +1,20 @@
+<mvc:View controllerName="com.demo.ZDemo_T17_Inkathon.controller.MainView1" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core"
+	displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<customHeader>
+						<core:Fragment fragmentName="com.demo.ZDemo_T17_Inkathon.fragments.header" type="XML"></core:Fragment>
+					</customHeader>
+					<content>
+						<core:Fragment fragmentName="com.demo.ZDemo_T17_Inkathon.fragments.main" type="XML"></core:Fragment>
+					</content>
+					<footer>
+						<core:Fragment fragmentName="com.demo.ZDemo_T17_Inkathon.fragments.footer" type="XML"></core:Fragment>
+					</footer>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

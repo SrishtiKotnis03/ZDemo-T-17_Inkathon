@@ -1,0 +1,33 @@
+.sapMPageHeader{
+	color:#fff;
+	background-color:#123167;
+}
+
+.sapMBtnIcon{
+	color:white;
+}
+
+.sapMBtnIcon:hover {
+  background-color: white; /* Green */
+  color:#123167;
+}
+
+.side-navigation {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	
+	max-width: 10rem;
+}
+
+.sapTntSideNavigation{
+	background-color:#123167;
+	color:white;
+}
